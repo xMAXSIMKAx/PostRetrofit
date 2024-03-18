@@ -6,11 +6,6 @@ import org.example.app.model.Post;
 import java.util.List;
 import java.util.Optional;
 
-import org.example.app.controller.PostController;
-import org.example.app.model.Post;
-
-import java.util.List;
-import java.util.Optional;
 
 public class PostView {
 

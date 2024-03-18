@@ -1,15 +1,17 @@
 package org.example.app.model;
 
-import com.google.gson.annotations.SerializedName;
 
 public class Post {
     private int id;
     private String title;
     private String body;
 
-    // constructors
+    public Post(int id, String title, String body) {
+        this.id = id;
+        this.title = title;
+        this.body = body;
+    }
 
-    // getters and setters
 
     @Override
     public String toString() {
